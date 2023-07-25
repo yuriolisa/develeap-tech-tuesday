@@ -32,7 +32,7 @@ kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/
 
 - OpenTelemetry Operator installation:
 ````bash
-kubectl apply -f https://github.com/open-telemetry/opentelemetry-operator/releases/download/v0.74.0/opentelemetry-operator.yaml
+kubectl apply -f https://github.com/open-telemetry/opentelemetry-operator/releases/download/v0.80.0/opentelemetry-operator.yaml
 ````
  - To verify that the installation of Operator went well simply run the following command replacing the pod name `kubectl logs -n opentelemetry-operator-system <pod-name>`: 
 
